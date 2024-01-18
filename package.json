@@ -1,0 +1,73 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "extensions-swift-sample",
+  "title": "Swift for Raycast Extensions",
+  "description": "Swift for Raycast Extensions Sample",
+  "icon": "command-icon.png",
+  "author": "grzegorzkrukowski",
+  "owner": "raycast",
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "noArgumentsNoReturn",
+      "title": "No Arguments, No Return",
+      "description": "Noop() Sample",
+      "mode": "view"
+    },
+    {
+      "name": "multipleArguments",
+      "title": "Multiple Arguments",
+      "description": "Multiple Arguments Sample",
+      "mode": "view"
+    },
+    {
+      "name": "arrayArguments",
+      "title": "Array Arguments",
+      "description": "Array Arguments Sample",
+      "mode": "view"
+    },
+    {
+      "name": "delayedExecution",
+      "title": "Delayed Execution",
+      "description": "Delayed Execution Sample",
+      "mode": "view"
+    },
+    {
+      "name": "returnClass",
+      "title": "Return Class",
+      "description": "Return Class Sample",
+      "mode": "view"
+    },
+    {
+      "name": "errorAsString",
+      "title": "Error As String",
+      "description": "Error As String Sample",
+      "mode": "view"
+    },
+    {
+      "name": "errorAsEnum",
+      "title": "Error As Enum",
+      "description": "Error As Enum Sample",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.65.1",
+    "@raycast/utils": "^1.10.1"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.6",
+    "@types/node": "20.8.10",
+    "@types/react": "18.2.27",
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
