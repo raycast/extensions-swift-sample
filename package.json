@@ -49,6 +49,12 @@
       "title": "Error As Enum",
       "description": "Error As Enum Sample",
       "mode": "view"
+    },
+    {
+      "name": "optionals",
+      "title": "Optionals",
+      "description": "Optionals Sample",
+      "mode": "view"
     }
   ],
   "dependencies": {

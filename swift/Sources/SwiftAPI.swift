@@ -36,6 +36,10 @@ import RaycastSwiftMacros
   }
 }
 
+@raycast func optionals(value: String?) async -> String? {
+  return value
+}
+
 struct Color: Encodable {
   let red: Float
   let green: Float
