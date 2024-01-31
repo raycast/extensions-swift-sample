@@ -7,7 +7,7 @@ let package = Package(
     name: "SwiftAPI",
     platforms: [.macOS(.v12)],
     dependencies: [
-      .package(url: "https://github.com/raycast/extensions-swift-tools.git", from: "1.0.0"),
+      .package(url: "https://github.com/raycast/extensions-swift-tools.git", from: "1.0.1"),
     ],
     targets: [
       .executableTarget(
