@@ -1,6 +1,6 @@
 # Raycast Extension Sample Using Swift
 
-This repo contains a Raycast extension which TypeScript and Swift code. It demonstrates how to invoke Swift code from the React/TypeScript side and how exportable functions are defined in Swift.
+This repo contains a Raycast extension with TypeScript and Swift code. It demonstrates how to invoke Swift code from the React/TypeScript side and how exportable functions are defined in Swift.
 
 > For further details, please check [Swift for Raycast Extensions](https://github.com/raycast/extensions-swift-tools).
 
