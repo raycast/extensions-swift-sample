@@ -50,4 +50,5 @@ struct Color: Encodable {
   }
 }
 
-extension String : Swift.Error { }
+/// - attention: This is frown upon in Swift :)
+extension String: Swift.Error { }
